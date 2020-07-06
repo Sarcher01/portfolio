@@ -3,8 +3,18 @@ General
 *******************/
 
 body {
-    
     font-family:"Poppins", sans-serif;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    font-weight: 300px;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
@@ -42,7 +52,7 @@ header {
 }
 
 #logo {
-    text-align:center;
+    text-align: center;
 }
 
 /******************
@@ -73,23 +83,79 @@ nav ul {
 Footer
 *******************/
 
+footer {
+    text-align: center;
+    font-size: .75em;
+    padding-top: 50px;
+    font-weight: 200;
+    clear: both;
+}
 
+
+.social-icon {
+    width: 20px;
+    margin: 20px;
+    margin: 0px;
+}
 
 /******************
 Page: Portfolio
 *******************/
 
+#gallery {
+    margin: 0;
+    padding: 0;
+}
 
-
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+    font-weight: 300;
+}
 /******************
 Page: About
 *******************/
 
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100px;
+}
 
 /******************
 Page: Contact
 *******************/
 
+.contact-info {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+contact-info a {
+    display:block;
+    background-repeat: no-repeat;
+    min-height: 20px;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px
+}
+
+.contact-info li.phone a{
+    background-image: url(../img/phone.img)
+}
+
+.contact-info li.mail a {
+    background-image: url(../img/mail.img)
+}
+
+.contact-info li.twitter a{
+    background-image: url(../img/twitter-wrap.png)
+}
 
 /******************
 Colors
