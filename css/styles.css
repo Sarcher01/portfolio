@@ -115,6 +115,13 @@ Page: Portfolio
     color: #bdc3c7;
     font-weight: 300;
 }
+
+#gallery p {
+    padding: 0px 10px;
+    font-size: .85em;
+    line-height: 1.4;
+    
+}
 /******************
 Page: About
 *******************/
@@ -142,15 +149,15 @@ contact-info a {
     min-height: 20px;
     background-size: 20px 20px;
     padding: 0 0 0 30px;
-    margin: 0 0 10px
+    margin: 0 0 10px;
 }
 
 .contact-info li.phone a{
-    background-image: url(../img/phone.img)
+    background-image: url(../img/phone.png)
 }
 
 .contact-info li.mail a {
-    background-image: url(../img/mail.img)
+    background-image: url(../img/mail.png)
 }
 
 .contact-info li.twitter a{

@@ -1,0 +1,75 @@
+@media screen and (min-width: 480px) {
+
+/***************
+Two Colum Layout
+***************/
+    
+    #primary {
+        width: 50%;
+        float: left;
+    }
+    
+    #secondary {
+        width: 40%;
+        float: right;
+    }
+    
+/*************
+Portfolio
+*************/
+
+    #gallery li {
+        width: 28.3333%;
+        
+    }
+    
+    #gallery li:nth-child(4n){
+        clear: left;
+    }
+/************
+Page: About
+************/
+
+    .profile-photo {
+        float: left;
+        margin: 0 5% 80px 0;
+    }
+
+
+@media screen and (min-width: 660px) {
+
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin: 30px 5% 0 0;
+        width: 45%;
+    }
+    
+    nav li {
+        padding: 0px;
+        
+    }
+    
+    h1 {
+        font-size: 2.5 em;
+    }
+    
+    h2 {
+        font-size: .825em;
+        margin-bottom: 20px;
+    }
+
+    #logo {
+        float: left;
+        width: 45%;
+        text-align: left;
+        margin-left: 5%
+    }
+    
+    header {
+        border-bottom: 5px solod #599a68;
+        margin-bottom: 60px;
+        height: 100px;
+        
+    }
